@@ -1,0 +1,90 @@
+:root {
+  --gold: #ffb338;
+  --light-shadow: #77571d;
+  --dark-shadow: #3e2904;
+}
+
+
+#gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.griditemcontainer{
+    border-radius: 25px;
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+  height: 150%;
+  background-color: #282c34 ;
+  width: 100%;
+}
+.griditem{
+  margin: auto;
+  width: 50%;
+}
+#item0name{
+  font-size:30px;
+}
+#item1name{
+  font-size:25px
+}
+body {
+  background: #000405;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+}
+.name{
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+article {
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+span {
+  font-size: 3vh;
+  line-height: 1.1;
+}
+
+body {
+  background: hsl(204 100% 5%);
+  
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  font-family: system-ui;
+  font-size: min(200%, 5vmin);
+}
+
+span, p, body {
+  margin: 0;
+}
+
+p {
+  font-family: "Dank Mono", ui-monospace, monospace;
+}
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+
